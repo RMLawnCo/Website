@@ -12,6 +12,7 @@ body {
   font-family: "Roboto", sans-serif;
   background: var(--bg);
   color: white;
+  min-height: 100vh;
 }
 
 .logoImage {
@@ -88,6 +89,10 @@ a:hover {
   max-width: 80%;
 }
 
+.paragraph>p {
+  text-indent: 24px;
+}
+
 .title {
   line-height: 1.7rem;
   margin: 0;
@@ -137,4 +142,35 @@ a:hover {
   height: 160px;
   width: auto;
   margin: 0.75rem;
+}
+
+.marginCenter {
+  margin: auto;
+}
+
+.paragraphImg {
+  width: 600px;
+  max-width: 80%;
+  height: auto;
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+
+  border-radius: 0.6rem;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: var(--navBg);
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+.flexVertical {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
 }
