@@ -21,7 +21,8 @@ export default function Plans() {
                 </div>
                 <div className="dirVert textCenter card">
                     <Image priority src={months} alt="Months" />
-                    <h3 className="noMargin">Premium (Monthly)</h3>
+                    <h3 className="n
+                    Margin">Premium (Monthly)</h3>
                     <p className="noMargin">$45 per month</p>
                     <p className="noMargin">Pay monthly</p>
                 </div>

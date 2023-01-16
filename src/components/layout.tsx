@@ -5,7 +5,7 @@ export default function Layout({ children }: { children: any }) {
     return (
         <>
             <Head>
-                <title>Create Next App</title>
+                <link rel="shortcut icon" href="/favicon.ico" />
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <meta name="description"
                     content="RMLawnCo is a landcare and landscaping comany. We provide amazing lawnmowing and landcare to landscapes in the Fairview Heights, Illinois area, all of this at an affordable price!" />
