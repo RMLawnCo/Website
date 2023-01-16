@@ -17,6 +17,7 @@ body {
 .logoImage {
   border-radius: 0.25rem;
   height: 33px;
+  width: auto;
 }
 
 .nav {
@@ -133,5 +134,6 @@ a:hover {
 
 .card img {
   height: 160px;
+  width: auto;
   margin: 0.75rem;
 }
