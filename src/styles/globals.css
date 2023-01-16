@@ -36,13 +36,13 @@ body {
   /* box-shadow: 0 0 24px var(--navBg); */
 }
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 500px) {
   .nav {
     flex-direction: column;
   }
 }
 
-@media only screen and (max-width: 250px) {
+@media only screen and (max-width: 350px) {
   .links {
     flex-direction: column;
   }
@@ -115,6 +115,10 @@ a:hover {
 
 .noMargin {
   margin: 0;
+}
+
+.autoMargin {
+  margin: auto;
 }
 
 .rounded {

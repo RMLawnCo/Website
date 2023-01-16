@@ -3,7 +3,6 @@ export default function Nav() {
         <nav className="nav">
             <a href="/" className="noUnderline centerVertical">
                 <img src="logo.png" alt="img" className="logoImage" />
-                {/* <h3 className="title">RMLawnCo</h3> */}
             </a>
             <div className="links">
                 <a href="/">Home</a>
