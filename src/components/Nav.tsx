@@ -1,14 +1,17 @@
+import Link from "next/link"
+import Image from "next/image"
+
 export default function Nav() {
     return (
         <nav className="nav">
-            <a href="/" className="noUnderline centerVertical">
-                <img src="logo.png" alt="img" className="logoImage" />
-            </a>
+            <Link href="/" className="noUnderline centerVertical">
+                <Image src="logo.png" alt="img" className="logoImage" />
+            </Link>
             <div className="links">
-                <a href="/">Home</a>
-                <a href="/contact">Contact</a>
-                <a href="/plans">Plans</a>
-                <a href="/about">About</a>
+                <Link href="/">Home</Link>
+                <Link href="/contact">Contact</Link>
+                <Link href="/plans">Plans</Link>
+                <Link href="/about">About</Link>
             </div>
         </nav>
     )
