@@ -11,6 +11,6 @@ export default function Home() {
                 communication. Great
                 communication can leave
                 you with a great lawn and a happy face!</p>
-        </div >
+        </div>
     )
 }

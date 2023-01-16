@@ -94,3 +94,40 @@ a:hover {
 .indent {
   text-indent: 24px;
 }
+
+.flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* align-items: center; */
+  justify-content: center;
+  gap: 2rem
+}
+
+.dirVert {
+  display: flex;
+  flex-direction: column;
+}
+
+.textCenter {
+  text-align: center;
+}
+
+.noMargin {
+  margin: 0;
+}
+
+.rounded {
+  border-radius: 0.5rem;
+}
+
+.card {
+  background: var(--navBg);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.card img {
+  height: 160px;
+  margin: 0.75rem;
+}
