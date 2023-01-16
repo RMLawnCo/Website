@@ -4,6 +4,13 @@
   --bg: hsl(230, 10%, 10%);
   /* --bg: #0b0c19; */
   --navBg: hsl(230, 10%, 12%);
+  --color: white;
+}
+
+.lightMode {
+  --bg: hsl(0, 0%, 100%);
+  --navBg: hsl(0, 0%, 91%);
+  --color: black;
 }
 
 body {
@@ -11,7 +18,7 @@ body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   background: var(--bg);
-  color: white;
+  color: var(--color);
   min-height: 100vh;
 }
 
@@ -32,7 +39,7 @@ body {
   align-items: center;
   padding: 1rem;
   background: var(--navBg);
-  color: white;
+  color: var(--color);
   position: sticky;
   top: 0;
   left: 0;
@@ -52,7 +59,7 @@ body {
 }
 
 a {
-  color: white;
+  color: var(--color);
   text-decoration: none;
 }
 
@@ -62,6 +69,7 @@ a:hover {
 
 .links {
   display: flex;
+  align-items: center;
   gap: 0.5rem;
 }
 
@@ -173,4 +181,13 @@ a:hover {
   display: flex;
   flex-direction: column;
   gap: 0.3rem;
+}
+
+.clearBtn {
+  background: none;
+  border: none;
+  padding: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--color);
 }

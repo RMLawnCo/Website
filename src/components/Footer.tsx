@@ -1,6 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import logo from "../public/logo.png"
+import darkLogo from "../public/logoDark.png"
 
 export default function Footer() {
     return (
@@ -10,7 +11,8 @@ export default function Footer() {
                 <Link href="/privacypolicy">Privacy Policy</Link>
             </div>
             <Link href="/" className="noUnderline centerVertical">
-                <Image priority src={logo} alt="img" className="logoImage" />
+                <Image priority id="lightLogo2" src={logo} alt="logo" className="logoImage" />
+                <Image priority id="darkLogo2" src={darkLogo} alt="logo" className="logoImage" style={{ "display": "none" }} />
             </Link>
         </footer>
     )

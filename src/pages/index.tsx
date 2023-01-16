@@ -23,7 +23,7 @@ export default function Home() {
           If you get the annual or monthly plan you pay beforehand if
           you get hourly you sign off on a form and pay afterward</p>
         <p className='marginCenter paragraph indent'>
-          We make lawncare easy for you and your time that way you can spend your time at work or with friends/family.</p>
+          We make lawncare easy for you and your time. That way you can spend your time at work or with friends/family.</p>
 
         <Image priority src={grass} alt="Grass" className='paragraphImg marginCenter centerVertical' />
 
