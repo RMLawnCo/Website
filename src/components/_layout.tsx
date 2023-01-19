@@ -13,7 +13,7 @@ export default function Layout({ children }) {
                 <meta name="keywords"
                     content="RMLawnCo" />
                 <link rel="shortcut icon" href="/favicon.ico?v=2" />
-
+                <link rel="canonical" href="https://rmlawnco.com/" />
                 <title>RMLawnCo</title>
             </Head>
             <Nav />

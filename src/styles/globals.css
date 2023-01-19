@@ -191,3 +191,12 @@ a:hover {
   cursor: pointer;
   color: var(--color);
 }
+
+.footerLink {
+  min-height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-width: 48px;
+}

@@ -7,8 +7,8 @@ export default function Footer() {
     return (
         <footer className="footer">
             <div className="flexVertical">
-                <Link href="/tos">Terms of Service</Link>
-                <Link href="/privacypolicy">Privacy Policy</Link>
+                <Link href="/tos" className="footerLink">Terms of Service</Link>
+                <Link href="/privacypolicy" className="footerLink">Privacy Policy</Link>
             </div>
             <Link href="/" className="noUnderline centerVertical">
                 <Image priority id="lightLogo2" src={logo} alt="logo" className="logoImage" />

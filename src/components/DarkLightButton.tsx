@@ -6,7 +6,7 @@ export default function DarkLightButton() {
     const [darkMode, setDarkMode] = useState(false);
     return (
         <>
-            <button className="clearBtn" onClick={() => {
+            <button name="Dark mode / Light mode toggle" className="clearBtn" onClick={() => {
                 setDarkMode(!darkMode);
                 if (darkMode) {
                     document.documentElement.className = "";

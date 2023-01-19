@@ -2,6 +2,7 @@ import { Inter } from '@next/font/google'
 import grass from "../public/grass.jpg"
 import feetGrass from "../public/feetGrass.jpg"
 import Image from "next/image"
+import Head from 'next/head'
 
 const inter = Inter({ subsets: ['latin'] })
 
