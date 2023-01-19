@@ -11,7 +11,7 @@ export default function Home() {
       <div>
         <h1 className="center">
           <strong>
-            Welcome to RMLawnCo
+            Welcome to RMLawnCo!
           </strong>
         </h1>
         <p className="paragraph indent marginCenter">

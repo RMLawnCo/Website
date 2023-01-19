@@ -1,6 +1,6 @@
-import Head from "next/head";
 import Footer from "./Footer";
 import Nav from "./Nav";
+import Head from "next/head"
 
 export default function Layout({ children }) {
     return (
@@ -11,8 +11,9 @@ export default function Layout({ children }) {
                 <meta name="description"
                     content="RMLawnCo is a landcare and landscaping comany. We provide amazing lawnmowing and landcare to landscapes in the Fairview Heights, Illinois area, all of this at an affordable price!" />
                 <meta name="keywords"
-                    content="RMLawnCo, landscaping, landcare, lawnmowing, landmower RMlawn, rm lawnco, rmlawn co, rm lawn co, landscapers, hire, landscapers" />
+                    content="RMLawnCo" />
                 <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+
                 <title>RMLawnCo</title>
             </Head>
             <Nav />
