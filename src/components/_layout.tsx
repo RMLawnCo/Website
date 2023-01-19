@@ -12,7 +12,7 @@ export default function Layout({ children }) {
                     content="RMLawnCo is a landcare and landscaping comany. We provide amazing lawnmowing and landcare to landscapes in the Fairview Heights, Illinois area, all of this at an affordable price!" />
                 <meta name="keywords"
                     content="RMLawnCo" />
-                <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+                <link rel="shortcut icon" href="/favicon.ico?v=2" />
 
                 <title>RMLawnCo</title>
             </Head>
