@@ -1,6 +1,7 @@
-import Footer from "./Footer";
-import Nav from "./Nav";
+import Footer from "./Footer"
+import Nav from "./Nav"
 import Head from "next/head"
+import Script from "next/script"
 
 export default function Layout({ children }) {
     return (
@@ -14,6 +15,21 @@ export default function Layout({ children }) {
                     content="RMLawnCo" />
                 <link rel="shortcut icon" href="/favicon.ico?v=2" />
                 <link rel="canonical" href="https://rmlawnco.com/" />
+                <Script src="https://www.googletagmanager.com/gtag/js?id=G-KGPFN9LEHN" strategy="afterInteractive"></Script>
+                <Script
+                    id='google-analytics'
+                    strategy="afterInteractive"
+                    dangerouslySetInnerHTML={{
+                        __html: `
+                           window.dataLayer = window.dataLayer || [];
+                            function gtag(){dataLayer.push(arguments);}
+                            gtag('js', new Date());
+                            gtag('config', 'G-KGPFN9LEHN', {
+                            page_path: window.location.pathname,
+                        });
+                    `,
+                    }}
+                />
                 <title>RMLawnCo</title>
             </Head>
             <Nav />

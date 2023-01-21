@@ -14,20 +14,20 @@ export default function Plans() {
 
             <div className="flex">
                 <div className="dirVert textCenter card">
-                    <Image priority src={hours} alt="hourly" />
+                    <Image src={hours} alt="hourly" />
                     <h3 className="noMargin">Basic (Hourly)</h3>
                     <p className="noMargin">$30 per hour</p>
                     <p className="noMargin">Single Use</p>
                 </div>
                 <div className="dirVert textCenter card">
-                    <Image priority src={months} alt="Months" />
+                    <Image src={months} alt="Months" />
                     <h3 className="n
                     Margin">Premium (Monthly)</h3>
                     <p className="noMargin">$45 per month</p>
                     <p className="noMargin">Pay monthly</p>
                 </div>
                 <div className="dirVert textCenter card">
-                    <Image priority src={years} alt="Year" />
+                    <Image src={years} alt="Year" />
                     <h3 className="noMargin">Deluxe (Anually)</h3>
                     <p className="noMargin">$40 per month</p>
                     <p className="noMargin">Pay for whole year</p>
