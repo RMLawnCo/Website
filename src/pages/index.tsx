@@ -14,6 +14,7 @@ export default function Home() {
           <strong>
             Welcome to RMLawnCo!
           </strong>
+
         </h1>
         <p className="paragraph indent marginCenter">
           Working with us at RMLawnCo will bring you great service, and great
