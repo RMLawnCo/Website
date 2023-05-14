@@ -1,9 +1,15 @@
 import Image from "next/image"
-import hours from "../public/hours.jpg"
+import weekly from "../public/weekly.png"
 import months from "../public/months.png"
-import years from "../public/years.png"
+import annual from "../public/annual.png"
+import twiceweek from "../public/twiceweek.jpg"
+import singleuse from "../public/singleuse.png"
 
 export default function Plans() {
+    var small = 30;
+    var medium = 45;
+    var large = 60;
+    var xlarge = 85;
     return (
         <div>
             <h1 className="centerVertical">
@@ -14,23 +20,45 @@ export default function Plans() {
 
             <div className="flex">
                 <div className="dirVert textCenter card">
-                    <Image src={hours} alt="hourly" />
-                    <h3 className="noMargin">Basic (Hourly)</h3>
-                    <p className="noMargin">$30 per hour</p>
-                    <p className="noMargin">Single Use</p>
+                    <Image src={twiceweek} alt="twice a week" />
+                    <h3 className="noMargin">Twice a week</h3>
+                    <p className="noMargin">Small lawn: ${small * 2} per week</p>
+                    <p className="noMargin">Medium lawn: ${medium * 2} per week</p>
+                    <p className="noMargin">Large lawn: ${large * 2} per week</p>
+                    <p className="noMargin">Extra-Large lawn: ${xlarge * 2} per week</p>
                 </div>
                 <div className="dirVert textCenter card">
-                    <Image src={months} alt="Months" />
-                    <h3 className="n
-                    Margin">Premium (Monthly)</h3>
-                    <p className="noMargin">$45 per month</p>
-                    <p className="noMargin">Pay monthly</p>
+                    <Image src={weekly} alt="weekly" />
+                    <h3 className="noMargin">Weekly</h3>
+                    <p className="noMargin">Small lawn: ${small} per week</p>
+                    <p className="noMargin">Medium lawn: ${medium} per week</p>
+                    <p className="noMargin">Large lawn: ${large} per week</p>
+                    <p className="noMargin">Extra-Large lawn: ${xlarge} per week</p>
                 </div>
                 <div className="dirVert textCenter card">
-                    <Image src={years} alt="Year" />
-                    <h3 className="noMargin">Deluxe (Anually)</h3>
-                    <p className="noMargin">$40 per month</p>
-                    <p className="noMargin">Pay for whole year</p>
+                    <Image src={singleuse} alt="single use" />
+                    <h3 className="noMargin">Single Use</h3>
+                    <p className="noMargin">Small lawn: ${small}</p>
+                    <p className="noMargin">Medium lawn: ${medium}</p>
+                    <p className="noMargin">Large lawn: ${large}</p>
+                    <p className="noMargin">Extra-Large lawn: ${xlarge}</p>
+                </div>
+                <div className="dirVert textCenter card">
+                    <Image src={months} alt="monthly" />
+                    <h3 className="noMargin">Monthly</h3>
+                    <p className="noMargin">Small lawn: ${small} per month</p>
+                    <p className="noMargin">Medium lawn: ${medium} per month</p>
+                    <p className="noMargin">Large lawn: ${large} per month</p>
+                    <p className="noMargin">Extra-Large lawn: ${xlarge} per month</p>
+                </div>
+                <div className="dirVert textCenter card">
+                    <Image src={annual} alt="annual" />
+                    <h3 className="noMargin">Annual</h3>
+                    <p className="noMargin">(Monthly payed up front)</p>
+                    <p className="noMargin">Small lawn: ${small * 12}</p>
+                    <p className="noMargin">Medium lawn: ${medium * 12}</p>
+                    <p className="noMargin">Large lawn: ${large * 12}</p>
+                    <p className="noMargin">Extra-Large lawn: ${xlarge * 12}</p>
                 </div>
             </div>
 
